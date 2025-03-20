@@ -6,7 +6,7 @@ import pg8000
 # Function to connect to the PostgreSQL database
 def get_db_connection():
     conn =pg8000.connect(
-        host="database-1.c3m4qwmqed63.ap-south-1.rds.amazonaws.com",
+        host="tamildp.cliqcmou8mpq.ap-south-1.rds.amazonaws.com",
         port=5432,
         database="postgres",
         user="postgres",
